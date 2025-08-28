@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Backtest (run_backtest.py)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_backtest.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Streamlit (app.py)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/.venv/bin/streamlit",
+      "args": [
+        "run",
+        "${workspaceFolder}/src/frontend/app.py"
+      ]
+    }
+  ]
+}

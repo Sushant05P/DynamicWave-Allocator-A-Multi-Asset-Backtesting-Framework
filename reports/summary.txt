@@ -1,0 +1,5 @@
+init_cash: 100000
+final_value: 1928408.1586247557
+total_return: 18.284081586247556
+ann_return_approx: 0.21113609044652892
+max_drawdown: -0.4749512085810005
